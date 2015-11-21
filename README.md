@@ -1,12 +1,6 @@
 docker-osx
 ==========
 
-# WARNING
-
-This project was started before official docker support on Mac OS X. Before using it, take a look the offical way from Docker team: http://docs.docker.io/installation/mac/. We keep this project live until boot2docker fully replace this project (it's almost done)
-
-# If you are a new docker user don't use this project!
-
 # What is docker-osx
 
 Docker on OS X in three steps:
@@ -21,7 +15,7 @@ Docker on OS X in three steps:
 
  or curl:
 
-        curl https://raw.githubusercontent.com/noplay/docker-osx/HEAD/docker-osx > /usr/local/bin/docker-osx
+        curl https://raw.githubusercontent.com/Neahran/docker-osx/HEAD/docker-osx > /usr/local/bin/docker-osx
         chmod +x /usr/local/bin/docker-osx
 
 3. Run:
